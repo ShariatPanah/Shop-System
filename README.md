@@ -7,7 +7,7 @@ Technologies used: C#, Ado.net with Datasource
 
 Database: Microsoft Sql Server
 
-some screenshots of the application:
+## Some screenshots of the application
 
 Main Form:
 
