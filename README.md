@@ -1,5 +1,6 @@
 # Shop-System
 this project is just for educational purposes, it is for managing buys, sells and customers of a shop.
+this project has been built in 2014
 
 Technologies used: C#, Ado.net with Datasource
 Database: Microsoft Sql Server
