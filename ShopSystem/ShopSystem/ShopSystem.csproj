@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2409F2DC-D432-4B0D-8373-DDB8411F987D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ShopSystem</RootNamespace>
+    <AssemblyName>ShopSystem</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmEditUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditUser.Designer.cs">
+      <DependentUpon>frmEditUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmInstallment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInstallment.Designer.cs">
+      <DependentUpon>frmInstallment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPaymentReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPaymentReport.Designer.cs">
+      <DependentUpon>frmPaymentReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPayments.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPayments.Designer.cs">
+      <DependentUpon>frmPayments.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmProfit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProfit.Designer.cs">
+      <DependentUpon>frmProfit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSelling.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSelling.Designer.cs">
+      <DependentUpon>frmSelling.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmShopping.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmShopping.Designer.cs">
+      <DependentUpon>frmShopping.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTelePhone.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTelePhone.Designer.cs">
+      <DependentUpon>frmTelePhone.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUser.Designer.cs">
+      <DependentUpon>frmUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ShopDataSet.cs">
+      <DependentUpon>ShopDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ShopDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ShopDataSet.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="frmEditUser.resx">
+      <DependentUpon>frmEditUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInstallment.resx">
+      <DependentUpon>frmInstallment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPaymentReport.resx">
+      <DependentUpon>frmPaymentReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPayments.resx">
+      <DependentUpon>frmPayments.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProfit.resx">
+      <DependentUpon>frmProfit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSelling.resx">
+      <DependentUpon>frmSelling.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmShopping.resx">
+      <DependentUpon>frmShopping.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTelePhone.resx">
+      <DependentUpon>frmTelePhone.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUser.resx">
+      <DependentUpon>frmUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShopDataSet.resx">
+      <DependentUpon>ShopDataSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="ShopDataSet.xsc">
+      <DependentUpon>ShopDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ShopDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ShopDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ShopDataSet.xss">
+      <DependentUpon>ShopDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exitr4y.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow-circle-315.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trash-full.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save-alt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Convertin_Date\Convertin_Date.csproj">
+      <Project>{7343e645-bfef-451b-9c93-f20ee969c0d8}</Project>
+      <Name>Convertin_Date</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Shop_System.BLL\Shop_System.BLL.csproj">
+      <Project>{b6ed5406-47e7-49f1-a4b2-3a7e39d56e68}</Project>
+      <Name>Shop_System.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Shop_System.DAL\Shop_System.DAL.csproj">
+      <Project>{b1d9e592-b42e-42f7-b717-62765e4e1a0e}</Project>
+      <Name>Shop_System.DAL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\textedit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\magnifier-zoom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CashBox.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CashBox2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\27_edit_text.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1418837499_line_chart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1418837488_safe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1418836996_cash_register2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shopping.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shoping_basket1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fsgfdr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pencil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Calculator_MRT.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

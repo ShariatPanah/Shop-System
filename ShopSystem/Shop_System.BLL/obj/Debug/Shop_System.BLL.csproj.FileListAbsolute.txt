@@ -1,0 +1,16 @@
+c:\users\np\documents\visual studio 2013\Projects\ShopSystem\Shop_System.BLL\bin\Debug\Shop_System.BLL.dll
+c:\users\np\documents\visual studio 2013\Projects\ShopSystem\Shop_System.BLL\bin\Debug\Shop_System.BLL.pdb
+c:\users\np\documents\visual studio 2013\Projects\ShopSystem\Shop_System.BLL\obj\Debug\Shop_System.BLL.csprojResolveAssemblyReference.cache
+c:\users\np\documents\visual studio 2013\Projects\ShopSystem\Shop_System.BLL\obj\Debug\Shop_System.BLL.dll
+c:\users\np\documents\visual studio 2013\Projects\ShopSystem\Shop_System.BLL\obj\Debug\Shop_System.BLL.pdb
+E:\Sirwan_Files\Programming Class\C# Projects\My Projects\ShopSystem\ShopSystem\Shop_System.BLL\bin\Debug\Shop_System.BLL.dll
+E:\Sirwan_Files\Programming Class\C# Projects\My Projects\ShopSystem\ShopSystem\Shop_System.BLL\bin\Debug\Shop_System.BLL.pdb
+E:\Sirwan_Files\Programming Class\C# Projects\My Projects\ShopSystem\ShopSystem\Shop_System.BLL\obj\Debug\Shop_System.BLL.csprojResolveAssemblyReference.cache
+E:\Sirwan_Files\Programming Class\C# Projects\My Projects\ShopSystem\ShopSystem\Shop_System.BLL\obj\Debug\Shop_System.BLL.dll
+E:\Sirwan_Files\Programming Class\C# Projects\My Projects\ShopSystem\ShopSystem\Shop_System.BLL\obj\Debug\Shop_System.BLL.pdb
+D:\Sirwan_Files\Programming Class\C# Projects\My Projects\ShopSystem\ShopSystem\Shop_System.BLL\bin\Debug\Shop_System.BLL.dll
+D:\Sirwan_Files\Programming Class\C# Projects\My Projects\ShopSystem\ShopSystem\Shop_System.BLL\bin\Debug\Shop_System.BLL.pdb
+D:\Sirwan_Files\Programming Class\C# Projects\My Projects\ShopSystem\ShopSystem\Shop_System.BLL\obj\Debug\Shop_System.BLL.csproj.AssemblyReference.cache
+D:\Sirwan_Files\Programming Class\C# Projects\My Projects\ShopSystem\ShopSystem\Shop_System.BLL\obj\Debug\Shop_System.BLL.csproj.CoreCompileInputs.cache
+D:\Sirwan_Files\Programming Class\C# Projects\My Projects\ShopSystem\ShopSystem\Shop_System.BLL\obj\Debug\Shop_System.BLL.dll
+D:\Sirwan_Files\Programming Class\C# Projects\My Projects\ShopSystem\ShopSystem\Shop_System.BLL\obj\Debug\Shop_System.BLL.pdb

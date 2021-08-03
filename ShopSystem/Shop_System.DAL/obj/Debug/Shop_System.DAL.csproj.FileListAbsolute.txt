@@ -1,0 +1,30 @@
+c:\users\np\documents\visual studio 2013\Projects\ShopSystem\Shop_System.DAL\bin\Debug\Shop_System.DAL.dll
+c:\users\np\documents\visual studio 2013\Projects\ShopSystem\Shop_System.DAL\bin\Debug\Shop_System.DAL.pdb
+c:\users\np\documents\visual studio 2013\Projects\ShopSystem\Shop_System.DAL\bin\Debug\Shop_System.BLL.dll
+c:\users\np\documents\visual studio 2013\Projects\ShopSystem\Shop_System.DAL\bin\Debug\Shop_System.BLL.pdb
+c:\users\np\documents\visual studio 2013\Projects\ShopSystem\Shop_System.DAL\obj\Debug\Shop_System.DAL.csprojResolveAssemblyReference.cache
+c:\users\np\documents\visual studio 2013\Projects\ShopSystem\Shop_System.DAL\obj\Debug\Shop_System.DAL.dll
+c:\users\np\documents\visual studio 2013\Projects\ShopSystem\Shop_System.DAL\obj\Debug\Shop_System.DAL.pdb
+C:\Users\NP\Documents\Visual Studio 2013\Customers Program\ShopSystem\Shop_System.DAL\bin\Debug\Shop_System.DAL.dll
+C:\Users\NP\Documents\Visual Studio 2013\Customers Program\ShopSystem\Shop_System.DAL\bin\Debug\Shop_System.DAL.pdb
+C:\Users\NP\Documents\Visual Studio 2013\Customers Program\ShopSystem\Shop_System.DAL\bin\Debug\Shop_System.BLL.dll
+C:\Users\NP\Documents\Visual Studio 2013\Customers Program\ShopSystem\Shop_System.DAL\bin\Debug\Shop_System.BLL.pdb
+C:\Users\NP\Documents\Visual Studio 2013\Customers Program\ShopSystem\Shop_System.DAL\obj\Debug\Shop_System.DAL.csprojResolveAssemblyReference.cache
+C:\Users\NP\Documents\Visual Studio 2013\Customers Program\ShopSystem\Shop_System.DAL\obj\Debug\Shop_System.DAL.dll
+C:\Users\NP\Documents\Visual Studio 2013\Customers Program\ShopSystem\Shop_System.DAL\obj\Debug\Shop_System.DAL.pdb
+E:\Sirwan_Files\Programming Class\C# Projects\My Projects\ShopSystem\ShopSystem\Shop_System.DAL\bin\Debug\Shop_System.DAL.dll
+E:\Sirwan_Files\Programming Class\C# Projects\My Projects\ShopSystem\ShopSystem\Shop_System.DAL\bin\Debug\Shop_System.DAL.pdb
+E:\Sirwan_Files\Programming Class\C# Projects\My Projects\ShopSystem\ShopSystem\Shop_System.DAL\bin\Debug\Shop_System.BLL.dll
+E:\Sirwan_Files\Programming Class\C# Projects\My Projects\ShopSystem\ShopSystem\Shop_System.DAL\bin\Debug\Shop_System.BLL.pdb
+E:\Sirwan_Files\Programming Class\C# Projects\My Projects\ShopSystem\ShopSystem\Shop_System.DAL\obj\Debug\Shop_System.DAL.csprojResolveAssemblyReference.cache
+E:\Sirwan_Files\Programming Class\C# Projects\My Projects\ShopSystem\ShopSystem\Shop_System.DAL\obj\Debug\Shop_System.DAL.dll
+E:\Sirwan_Files\Programming Class\C# Projects\My Projects\ShopSystem\ShopSystem\Shop_System.DAL\obj\Debug\Shop_System.DAL.pdb
+D:\Sirwan_Files\Programming Class\C# Projects\My Projects\ShopSystem\ShopSystem\Shop_System.DAL\bin\Debug\Shop_System.DAL.dll
+D:\Sirwan_Files\Programming Class\C# Projects\My Projects\ShopSystem\ShopSystem\Shop_System.DAL\bin\Debug\Shop_System.DAL.pdb
+D:\Sirwan_Files\Programming Class\C# Projects\My Projects\ShopSystem\ShopSystem\Shop_System.DAL\bin\Debug\Shop_System.BLL.dll
+D:\Sirwan_Files\Programming Class\C# Projects\My Projects\ShopSystem\ShopSystem\Shop_System.DAL\bin\Debug\Shop_System.BLL.pdb
+D:\Sirwan_Files\Programming Class\C# Projects\My Projects\ShopSystem\ShopSystem\Shop_System.DAL\obj\Debug\Shop_System.DAL.csproj.AssemblyReference.cache
+D:\Sirwan_Files\Programming Class\C# Projects\My Projects\ShopSystem\ShopSystem\Shop_System.DAL\obj\Debug\Shop_System.DAL.csproj.CoreCompileInputs.cache
+D:\Sirwan_Files\Programming Class\C# Projects\My Projects\ShopSystem\ShopSystem\Shop_System.DAL\obj\Debug\Shop_System.DAL.csproj.CopyComplete
+D:\Sirwan_Files\Programming Class\C# Projects\My Projects\ShopSystem\ShopSystem\Shop_System.DAL\obj\Debug\Shop_System.DAL.dll
+D:\Sirwan_Files\Programming Class\C# Projects\My Projects\ShopSystem\ShopSystem\Shop_System.DAL\obj\Debug\Shop_System.DAL.pdb
