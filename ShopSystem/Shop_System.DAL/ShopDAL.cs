@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,7 +12,7 @@ namespace Shop_System.DAL
 {
     public class ShopDAL
     {
-        public static string ConnectionString ="Data Source=.;Initial Catalog=Shop;Integrated Security=True";
+        public static string ConnectionString = "Data Source=.;Initial Catalog=Shop;Integrated Security=True";
         public static SqlConnection Connection;
         public static SqlCommand Command;
 
@@ -105,7 +106,7 @@ namespace Shop_System.DAL
             }
             finally
             {
-                if (Connection.State!=ConnectionState.Closed)
+                if (Connection.State != ConnectionState.Closed)
                 {
                     Connection.Close();
                 }
@@ -130,7 +131,7 @@ namespace Shop_System.DAL
             }
             finally
             {
-                if (Connection.State== ConnectionState.Open)
+                if (Connection.State == ConnectionState.Open)
                 {
                     Connection.Close();
                 }
@@ -160,7 +161,7 @@ namespace Shop_System.DAL
             }
             finally
             {
-                if (Connection.State==ConnectionState.Open)
+                if (Connection.State == ConnectionState.Open)
                 {
                     Connection.Close();
                 }
@@ -181,7 +182,7 @@ namespace Shop_System.DAL
             }
             finally
             {
-                if (Connection.State==ConnectionState.Open)
+                if (Connection.State == ConnectionState.Open)
                 {
                     Connection.Close();
                 }
@@ -206,7 +207,7 @@ namespace Shop_System.DAL
             }
             finally
             {
-                if (Connection.State==ConnectionState.Open)
+                if (Connection.State == ConnectionState.Open)
                 {
                     Connection.Close();
                 }
@@ -227,7 +228,7 @@ namespace Shop_System.DAL
             }
             finally
             {
-                if (Connection.State==ConnectionState.Open)
+                if (Connection.State == ConnectionState.Open)
                 {
                     Connection.Close();
                 }
@@ -255,7 +256,7 @@ namespace Shop_System.DAL
             }
             finally
             {
-                if (Connection.State==ConnectionState.Open)
+                if (Connection.State == ConnectionState.Open)
                 {
                     Connection.Close();
                 }
@@ -280,7 +281,7 @@ namespace Shop_System.DAL
             }
             finally
             {
-                if (Connection.State==ConnectionState.Open)
+                if (Connection.State == ConnectionState.Open)
                 {
                     Connection.Close();
                 }
@@ -305,7 +306,7 @@ namespace Shop_System.DAL
             }
             finally
             {
-                if (Connection.State==ConnectionState.Open)
+                if (Connection.State == ConnectionState.Open)
                 {
                     Connection.Close();
                 }
@@ -366,13 +367,13 @@ namespace Shop_System.DAL
             {
                 Connection.Open();
                 Command.Connection = Connection;
-                Command.CommandText=string.Format("Delete From Installment Where ID={0}", _id);
+                Command.CommandText = string.Format("Delete From Installment Where ID={0}", _id);
 
                 Command.ExecuteNonQuery();
             }
             finally
             {
-                if (Connection.State== ConnectionState.Open)
+                if (Connection.State == ConnectionState.Open)
                 {
                     Connection.Close();
                 }
@@ -407,7 +408,7 @@ namespace Shop_System.DAL
             }
             finally
             {
-                if (Connection.State==ConnectionState.Open)
+                if (Connection.State == ConnectionState.Open)
                 {
                     Connection.Close();
                 }
@@ -438,7 +439,7 @@ namespace Shop_System.DAL
             }
             finally
             {
-                if (Connection.State==ConnectionState.Open)
+                if (Connection.State == ConnectionState.Open)
                 {
                     Connection.Close();
                 }
@@ -463,7 +464,7 @@ namespace Shop_System.DAL
             }
             finally
             {
-                if (Connection.State==ConnectionState.Open)
+                if (Connection.State == ConnectionState.Open)
                 {
                     Connection.Close();
                 }
@@ -485,7 +486,7 @@ namespace Shop_System.DAL
             }
             finally
             {
-                if (Connection.State==ConnectionState.Open)
+                if (Connection.State == ConnectionState.Open)
                 {
                     Connection.Close();
                 }
@@ -564,7 +565,7 @@ namespace Shop_System.DAL
             }
             finally
             {
-                if (Connection.State==ConnectionState.Open)
+                if (Connection.State == ConnectionState.Open)
                 {
                     Connection.Close();
                 }
@@ -621,7 +622,7 @@ namespace Shop_System.DAL
             }
             finally
             {
-                if (Connection.State==ConnectionState.Open)
+                if (Connection.State == ConnectionState.Open)
                 {
                     Connection.Close();
                 }
@@ -643,7 +644,7 @@ namespace Shop_System.DAL
             }
             finally
             {
-                if (Connection.State==ConnectionState.Open)
+                if (Connection.State == ConnectionState.Open)
                 {
                     Connection.Close();
                 }
